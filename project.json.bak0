@@ -1,0 +1,16 @@
+{
+    "project_name": "cesium-o3de-samples",
+    "origin": "The primary repo for cesium-o3de-samples goes here: i.e. http://www.mydomain.com",
+    "license": "What license cesium-o3de-samples uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "cesium-o3de-samples",
+    "summary": "A short description of cesium-o3de-samples.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "cesium-o3de-samples"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": []
+}

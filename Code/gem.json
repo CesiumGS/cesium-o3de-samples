@@ -1,0 +1,16 @@
+{
+    "gem_name": "cesium-o3de-samples",
+    "display_name": "cesium-o3de-samples",
+    "license": "What license cesium-o3de-samples uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "origin": "The primary repo for cesium-o3de-samples goes here: i.e. http://www.mydomain.com",
+    "type": "Code",
+    "summary": "A short description of cesium-o3de-samples.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "cesium-o3de-samples"
+    ],
+    "icon_path": "preview.png",
+    "requirements": ""
+}
