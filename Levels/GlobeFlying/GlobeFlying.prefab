@@ -50,6 +50,7 @@
                 "ECEFPicker": {
                     "SampleOriginMethod": 1,
                     "SampledEntityId": "",
+                    "PositionType": 0,
                     "Position": [
                         -4130049.071528128,
                         2897926.9746867623,
@@ -556,7 +557,7 @@
                         "Type": 3,
                         "CesiumIon": {
                             "CesiumIonAssetId": 75343,
-                            "CesiumIonAssetToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3MjRkMzMxNC1mZDM0LTQxMzgtYjlmZi0xOTU1MTIzNjcyYjgiLCJpZCI6NDQsImlhdCI6MTY0MzY0ODIwOX0.Z5EvhMAZz778aShiN5yAOOJaX_y6MBi-kcRz828T5zk"
+                            "CesiumIonAssetToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ZjNjMWU3My0xOGUwLTQzNDMtYjJlMC1iNDRkYmM4ZDYwMTciLCJpZCI6MjU5LCJpYXQiOjE2NDM4MzQ0Nzd9.-E0V_TjXDmqJqx5gjxwckfzJh3rFv_lDDDfkluCgVy8"
                         }
                     },
                     "Transform": [
@@ -686,7 +687,7 @@
                         "Type": 3,
                         "CesiumIon": {
                             "CesiumIonAssetId": 69380,
-                            "CesiumIonAssetToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3MjRkMzMxNC1mZDM0LTQxMzgtYjlmZi0xOTU1MTIzNjcyYjgiLCJpZCI6NDQsImlhdCI6MTY0MzY0ODIwOX0.Z5EvhMAZz778aShiN5yAOOJaX_y6MBi-kcRz828T5zk"
+                            "CesiumIonAssetToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ZjNjMWU3My0xOGUwLTQzNDMtYjJlMC1iNDRkYmM4ZDYwMTciLCJpZCI6MjU5LCJpYXQiOjE2NDM4MzQ0Nzd9.-E0V_TjXDmqJqx5gjxwckfzJh3rFv_lDDDfkluCgVy8"
                         }
                     },
                     "Transform": [
@@ -757,7 +758,7 @@
                         "Cartographic": {
                             "Longitude": 144.95300157072944,
                             "Latitude": -37.823994993484405,
-                            "Height": 208.66500837665635
+                            "Height": 208.66500837665637
                         }
                     }
                 },
@@ -907,7 +908,7 @@
                     "Id": 17415419203186576053,
                     "Source": {
                         "ionAssetId": 2,
-                        "ionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3MjRkMzMxNC1mZDM0LTQxMzgtYjlmZi0xOTU1MTIzNjcyYjgiLCJpZCI6NDQsImlhdCI6MTY0MzY0ODIwOX0.Z5EvhMAZz778aShiN5yAOOJaX_y6MBi-kcRz828T5zk"
+                        "ionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ZjNjMWU3My0xOGUwLTQzNDMtYjJlMC1iNDRkYmM4ZDYwMTciLCJpZCI6MjU5LCJpYXQiOjE2NDM4MzQ0Nzd9.-E0V_TjXDmqJqx5gjxwckfzJh3rFv_lDDDfkluCgVy8"
                     }
                 },
                 "Component_[17492833975194744221]": {
@@ -946,7 +947,7 @@
                         "Type": 3,
                         "CesiumIon": {
                             "CesiumIonAssetId": 1,
-                            "CesiumIonAssetToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3MjRkMzMxNC1mZDM0LTQxMzgtYjlmZi0xOTU1MTIzNjcyYjgiLCJpZCI6NDQsImlhdCI6MTY0MzY0ODIwOX0.Z5EvhMAZz778aShiN5yAOOJaX_y6MBi-kcRz828T5zk"
+                            "CesiumIonAssetToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0ZjNjMWU3My0xOGUwLTQzNDMtYjJlMC1iNDRkYmM4ZDYwMTciLCJpZCI6MjU5LCJpYXQiOjE2NDM4MzQ0Nzd9.-E0V_TjXDmqJqx5gjxwckfzJh3rFv_lDDDfkluCgVy8"
                         }
                     },
                     "Transform": [
