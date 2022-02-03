@@ -35,6 +35,10 @@
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 16239496886950819870
             },
+            "Component_[3388776658333050317]": {
+                "$type": "TilesetCreditEditorComponent",
+                "Id": 3388776658333050317
+            },
             "Component_[5688118765544765547]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 5688118765544765547
@@ -53,6 +57,7 @@
                 "ECEFPicker": {
                     "SampleOriginMethod": 1,
                     "SampledEntityId": "",
+                    "PositionType": 0,
                     "Position": [
                         -4130048.924160548,
                         2897926.8841306237,
@@ -101,7 +106,7 @@
                         0.0
                     ],
                     [
-                        2.158898166470881e-10,
+                        2.1588981664708808e-10,
                         -20707.009819983505,
                         -6370255.121614069,
                         1.0
@@ -122,12 +127,12 @@
                     ],
                     [
                         -0.6467020213653156,
-                        0.45377069573505924,
+                        0.4537706957350592,
                         -0.613081276222113,
                         0.0
                     ],
                     [
-                        -4130048.9241605485,
+                        -4130048.924160549,
                         2897926.8841306237,
                         -3889125.191219642,
                         1.0
@@ -315,7 +320,7 @@
                         ],
                         [
                             4.18367562815547e-11,
-                            -2.3774191504344344e-9,
+                            -2.377419150434434e-9,
                             4.2018655221909285e-10,
                             1.0
                         ]
@@ -427,12 +432,12 @@
                     "Transform": [
                         [
                             1.0,
-                            -1.1102230246251565e-16,
-                            1.1102230246251565e-16,
+                            -1.1102230246251563e-16,
+                            1.1102230246251563e-16,
                             0.0
                         ],
                         [
-                            1.1102230246251565e-16,
+                            1.1102230246251563e-16,
                             1.0,
                             0.0,
                             0.0
@@ -571,7 +576,31 @@
                 },
                 "Component_[5992533738676323195]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 5992533738676323195
+                    "Id": 5992533738676323195,
+                    "DisabledComponents": [
+                        {
+                            "$type": "AZ::Render::EditorPhysicalSkyComponent",
+                            "Id": 7730546880164546590,
+                            "Controller": {
+                                "Configuration": {
+                                    "IntensityMode": 3,
+                                    "SkyIntensity": 0.800000011920929,
+                                    "SunIntensity": 100000.0,
+                                    "Turbidity": 2,
+                                    "SunRadiusFactor": 2.0,
+                                    "FogSettings": {
+                                        "Color": [
+                                            0.808896005153656,
+                                            0.9681544303894043,
+                                            1.0
+                                        ],
+                                        "TopHeight": 0.03500000014901161,
+                                        "BottomHeight": 0.19200000166893005
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 },
                 "Component_[7378860763541895402]": {
                     "$type": "AZ::Render::EditorDirectionalLightComponent",
@@ -582,28 +611,6 @@
                             "CameraEntityId": "",
                             "ShadowFarClipDistance": 1000.0,
                             "ShadowFilterMethod": 1
-                        }
-                    }
-                },
-                "Component_[7730546880164546590]": {
-                    "$type": "AZ::Render::EditorPhysicalSkyComponent",
-                    "Id": 7730546880164546590,
-                    "Controller": {
-                        "Configuration": {
-                            "IntensityMode": 3,
-                            "SkyIntensity": 0.800000011920929,
-                            "SunIntensity": 100000.0,
-                            "Turbidity": 2,
-                            "SunRadiusFactor": 2.0,
-                            "FogSettings": {
-                                "Color": [
-                                    0.808896005153656,
-                                    0.9681544303894043,
-                                    1.0
-                                ],
-                                "TopHeight": 0.03500000014901161,
-                                "BottomHeight": 0.19200000166893005
-                            }
                         }
                     }
                 },
@@ -756,6 +763,13 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 15826613364991382688
                 },
+                "Component_[15827301843893417830]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 15827301843893417830,
+                    "m_template": {
+                        "$type": "AdjustSkyOrientationComponent"
+                    }
+                },
                 "Component_[1665003113283562343]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 1665003113283562343
@@ -777,7 +791,27 @@
                             -2.129699945449829,
                             -8.424567222595215,
                             -5.647940158843994
+                        ],
+                        "Rotate": [
+                            -90.0,
+                            0.0,
+                            0.0
                         ]
+                    }
+                },
+                "Component_[8005570394513032001]": {
+                    "$type": "AZ::Render::EditorHDRiSkyboxComponent",
+                    "Id": 8005570394513032001,
+                    "Controller": {
+                        "Configuration": {
+                            "CubemapAsset": {
+                                "assetId": {
+                                    "guid": "{FF892EA4-60B2-5E14-8610-CA2A793C86A7}",
+                                    "subId": 2000
+                                },
+                                "assetHint": "engineassets/textures/cubemap/default_level_cubemap_iblspecular.tif.streamingimage"
+                            }
+                        }
                     }
                 },
                 "Component_[931091830724002070]": {
