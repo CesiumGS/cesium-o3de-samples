@@ -6,7 +6,8 @@ The Cesium for O3DE Samples is a starter project to learn and explore the [Cesiu
 
 The levels in this project will walk you through the plugin's features and demonstrate global-scale content, applications, and experiences in the Open 3D Engine.
 
-[Insert a photo here!]
+![Photogrammetry of Melbourne, Australia visualized in O3DE using Cesium for O3DE.](Images/Scene_Melbourne.png)
+*<p align="center">Photogrammetry of Melbourne, Australia visualized in O3DE using Cesium for O3DE.<br>Visit this and other locations in the <b>01_CesiumWorld</b> sample level.</p>*
 
 ### :rocket: Get Started
 
@@ -30,6 +31,9 @@ Explore different tilesets and locations on the globe in this introductory level
 ### :two: Level 02_CesiumBase
 
 This level is a simple template level consisting only of lighting, Cesium World Terrain and Cesium OSM Buildings, and the basic camera settings that you'll typically want in all your Cesium levels. Use this level as a jumping-off point to more rapidly build new experiences with Cesium and O3DE!
+
+![Cesium OSM Buildings visualized in O3DE using Cesium for O3DE.](Images/Scene_NYC.png)
+*<p align="center">Cesium OSM Buildings and Cesium World Terrain create this New York City scene in O3DE.</p>*
 
 ## :hammer_and_wrench:Using Cesium for O3DE Samples for Development
 
