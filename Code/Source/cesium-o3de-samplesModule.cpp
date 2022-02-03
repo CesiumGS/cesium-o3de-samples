@@ -2,6 +2,7 @@
 #include <AzCore/Memory/SystemAllocator.h>
 #include <AzCore/Module/Module.h>
 
+#include "AdjustSkyOrientationComponent.h"
 #include "cesium-o3de-samplesSystemComponent.h"
 
 namespace cesium_o3de_samples
@@ -19,6 +20,7 @@ namespace cesium_o3de_samples
             // Push results of [MyComponent]::CreateDescriptor() into m_descriptors here.
             m_descriptors.insert(m_descriptors.end(), {
                 cesium_o3de_samplesSystemComponent::CreateDescriptor(),
+                cesium_o3de_samples::AdjustSkyOrientationComponent::CreateDescriptor()
             });
         }
 
