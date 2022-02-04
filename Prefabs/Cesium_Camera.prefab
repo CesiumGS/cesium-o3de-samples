@@ -1,0 +1,206 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Cesium_Camera",
+        "Components": {
+            "Component_[10622019460201794572]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10622019460201794572
+            },
+            "Component_[11335246557319512164]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11335246557319512164,
+                "Child Entity Order": [
+                    "Entity_[612470870872243]"
+                ]
+            },
+            "Component_[11655350646295639230]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11655350646295639230
+            },
+            "Component_[12877366583442244633]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12877366583442244633
+            },
+            "Component_[16737857980962784085]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16737857980962784085,
+                "Parent Entity": ""
+            },
+            "Component_[3077535585474645826]": {
+                "$type": "EditorLockComponent",
+                "Id": 3077535585474645826
+            },
+            "Component_[3582984787344919084]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3582984787344919084
+            },
+            "Component_[5361466786691131885]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5361466786691131885
+            },
+            "Component_[8638847140517913796]": {
+                "$type": "SelectionComponent",
+                "Id": 8638847140517913796
+            },
+            "Component_[9759581674413012338]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9759581674413012338
+            },
+            "Component_[9934533929451081027]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9934533929451081027
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[612470870872243]": {
+            "Id": "Entity_[612470870872243]",
+            "Name": "Cesium Camera",
+            "Components": {
+                "Component_[10129474165133291174]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 10129474165133291174,
+                    "m_name": "ChangeCesiumCameraSpeed",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{7FBA73C1-4D9E-5920-A5EE-3A8C85710C6D}"
+                            },
+                            "assetHint": "scriptcanvas/changecesiumcameraspeed.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{7FBA73C1-4D9E-5920-A5EE-3A8C85710C6D}"
+                            },
+                            "assetHint": "scriptcanvas/changecesiumcameraspeed.scriptcanvas"
+                        },
+                        "entityId": [
+                            [
+                                {
+                                    "m_id": "{04BE5148-72AE-4496-AF66-8E2AD40D512D}"
+                                },
+                                ""
+                            ]
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "EntityId",
+                                    "value": ""
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{04BE5148-72AE-4496-AF66-8E2AD40D512D}"
+                                },
+                                "VariableName": "Camera [11198443766720610195]",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    }
+                },
+                "Component_[10252795955838627137]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 10252795955838627137,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{AE25C1E8-EA6A-5EF6-9F63-D8234D197A08}"
+                            },
+                            "assetHint": "assets/inputs/cesiumcamera.inputbindings"
+                        }
+                    }
+                },
+                "Component_[11895140916889160460]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11895140916889160460
+                },
+                "Component_[16880285896855930892]": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 16880285896855930892,
+                    "Controller": {
+                        "Configuration": {
+                            "Field of View": 55.0,
+                            "Far Clip Plane Distance": 10000000.0,
+                            "EditorEntityId": 14602246229454086798
+                        }
+                    }
+                },
+                "Component_[17187464423780271193]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17187464423780271193
+                },
+                "Component_[17495696818315413311]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17495696818315413311
+                },
+                "Component_[18086214374043522055]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18086214374043522055,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[18387556550380114975]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18387556550380114975
+                },
+                "Component_[1995046738562685655]": {
+                    "$type": "GeoReferenceCameraControllerEditor",
+                    "Id": 1995046738562685655,
+                    "PanningSpeed": 256.0,
+                    "MovementSpeed": 256.0
+                },
+                "Component_[2654521436129313160]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2654521436129313160
+                },
+                "Component_[5265045084611556958]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5265045084611556958
+                },
+                "Component_[7169798125182238623]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7169798125182238623
+                },
+                "Component_[8866210352157164042]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8866210352157164042,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 18086214374043522055
+                        },
+                        {
+                            "ComponentId": 1995046738562685655,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10252795955838627137,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 10129474165133291174,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 16880285896855930892,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "Component_[9129253381063760879]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9129253381063760879
+                }
+            }
+        }
+    }
+}

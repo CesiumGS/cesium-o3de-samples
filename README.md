@@ -35,6 +35,12 @@ This level is a simple template level consisting only of lighting, Cesium World 
 ![Cesium OSM Buildings visualized in O3DE using Cesium for O3DE.](Images/Scene_NYC.png)
 *<p align="center">Cesium OSM Buildings and Cesium World Terrain create this New York City scene in O3DE.</p>*
 
+### :information_source: Additional Features
+
+This sample project also includes some reusable entities and components that you can use in your projects. 
+- The **Cesium_Camera Prefab** is a premade camera entity with adjustable speed for viewing models up close or traveling large distances. Add it instead of the default camera to scenes where you'll need globe-aware movement. In play, use the mouse scroll wheel to adjust your speed.
+- The **Adjust Sky Orientation Component** can be used on directional lights and skyboxes to ensure they remain oriented correctly when moving large distances across the globe.
+
 ## :hammer_and_wrench:Using Cesium for O3DE Samples for Development
 
 The Cesium for O3DE Samples project can also be used for development and testing of the [Cesium for O3DE](https://github.com/CesiumGS/cesium-o3de) gem. To use this project for development, follow these steps.
