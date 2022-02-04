@@ -20,10 +20,10 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[1339621646305]",
-                    "Entity_[1331031711713]",
-                    "Entity_[25303487685531]",
-                    "Entity_[1666039160801]"
+                    "Entity_[1343916613601]",
+                    "Entity_[1335326679009]",
+                    "Entity_[1666039160801]",
+                    "Instance_[612462280937651]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -57,6 +57,7 @@
                 "ECEFPicker": {
                     "SampleOriginMethod": 1,
                     "SampledEntityId": "",
+                    "PositionType": 0,
                     "Position": [
                         -4130048.924160548,
                         2897926.8841306237,
@@ -151,7 +152,7 @@
     "Entities": {
         "Entity_[1176639161715]": {
             "Id": "Entity_[1176639161715]",
-            "Name": "Script Canvas",
+            "Name": "GameManager",
             "Components": {
                 "Component_[10757302973393310045]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -244,7 +245,7 @@
                                     },
                                     "isNullPointer": false,
                                     "$type": "EntityId",
-                                    "value": "Entity_[1339621646305]"
+                                    "value": ""
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
@@ -255,32 +256,23 @@
                                 "VariableName": "Camera [11198443766720610195]",
                                 "InitialValueSource": 1
                             }
-                        ],
-                        "overridesUnused": [
-                            {
-                                "Datum": {
-                                    "scriptCanvasType": {
-                                        "m_type": 1
-                                    },
-                                    "isNullPointer": false,
-                                    "$type": "EntityId",
-                                    "value": ""
-                                },
-                                "InputControlVisibility": {
-                                    "Value": 850104567
-                                },
-                                "VariableId": {
-                                    "m_id": "{26D570EF-645A-4E59-91AD-52BC37C42D63}"
-                                },
-                                "VariableName": "Cesium OSM Buildings [9104451225920921793]",
-                                "InitialValueSource": 1
-                            }
                         ]
                     }
                 },
                 "Component_[9277695270015777859]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 9277695270015777859
+                },
+                "Component_[9509939493103505549]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9509939493103505549,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "ui/controlmenu.uicanvas"
+                        },
+                        "IsAutoLoad": true
+                    }
                 }
             }
         },
@@ -432,7 +424,7 @@
                         [
                             1.0,
                             -2.220446049250313e-16,
-                            2.7755575615628914e-16,
+                            2.775557561562891e-16,
                             0.0
                         ],
                         [
@@ -442,8 +434,8 @@
                             0.0
                         ],
                         [
-                            -2.7755575615628914e-16,
-                            1.1102230246251565e-16,
+                            -2.775557561562891e-16,
+                            1.1102230246251563e-16,
                             1.0,
                             0.0
                         ],
@@ -478,72 +470,9 @@
                 }
             }
         },
-        "Entity_[1331031711713]": {
-            "Id": "Entity_[1331031711713]",
-            "Name": "Cesium Default Environment",
-            "Components": {
-                "Component_[12082035832838368233]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 12082035832838368233
-                },
-                "Component_[12345067828517108033]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12345067828517108033,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            2.129699945449829,
-                            8.424567222595215,
-                            5.647940158843994
-                        ]
-                    }
-                },
-                "Component_[13128808205585203011]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 13128808205585203011
-                },
-                "Component_[13644469199494354270]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13644469199494354270
-                },
-                "Component_[16320605656894580246]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 16320605656894580246,
-                    "Child Entity Order": [
-                        "Entity_[1343916613601]",
-                        "Entity_[1335326679009]"
-                    ]
-                },
-                "Component_[16834570988678874868]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 16834570988678874868
-                },
-                "Component_[17989776535899748508]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 17989776535899748508,
-                    "ComponentOrderEntryArray": [
-                        {
-                            "ComponentId": 12345067828517108033
-                        }
-                    ]
-                },
-                "Component_[4084821390959645795]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 4084821390959645795
-                },
-                "Component_[7396289368242491198]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7396289368242491198
-                },
-                "Component_[9780350383095924484]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 9780350383095924484
-                }
-            }
-        },
         "Entity_[1335326679009]": {
             "Id": "Entity_[1335326679009]",
-            "Name": "Sun & Sky",
+            "Name": "Sun",
             "Components": {
                 "Component_[10440557478882592717]": {
                     "$type": "SelectionComponent",
@@ -553,9 +482,12 @@
                     "$type": "EditorLockComponent",
                     "Id": 13620450453324765907
                 },
-                "Component_[18116591588110761317]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 18116591588110761317
+                "Component_[15562364611578301824]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 15562364611578301824,
+                    "m_template": {
+                        "$type": "AdjustSkyOrientationComponent"
+                    }
                 },
                 "Component_[2134313378593666258]": {
                     "$type": "EditorInspectorComponent",
@@ -575,31 +507,7 @@
                 },
                 "Component_[5992533738676323195]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 5992533738676323195,
-                    "DisabledComponents": [
-                        {
-                            "$type": "AZ::Render::EditorPhysicalSkyComponent",
-                            "Id": 7730546880164546590,
-                            "Controller": {
-                                "Configuration": {
-                                    "IntensityMode": 3,
-                                    "SkyIntensity": 0.800000011920929,
-                                    "SunIntensity": 100000.0,
-                                    "Turbidity": 2,
-                                    "SunRadiusFactor": 2.0,
-                                    "FogSettings": {
-                                        "Color": [
-                                            0.808896005153656,
-                                            0.9681544303894043,
-                                            1.0
-                                        ],
-                                        "TopHeight": 0.03500000014901161,
-                                        "BottomHeight": 0.19200000166893005
-                                    }
-                                }
-                            }
-                        }
-                    ]
+                    "Id": 5992533738676323195
                 },
                 "Component_[7378860763541895402]": {
                     "$type": "AZ::Render::EditorDirectionalLightComponent",
@@ -616,15 +524,10 @@
                 "Component_[7892834440890947578]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7892834440890947578,
-                    "Parent Entity": "Entity_[1331031711713]",
+                    "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
-                        "Translate": [
-                            -2.129699945449829,
-                            -8.424567222595215,
-                            -5.647940158843994
-                        ],
                         "Rotate": [
-                            -46.0,
+                            -45.000003814697266,
                             0.0,
                             0.0
                         ]
@@ -637,82 +540,6 @@
                 "Component_[952797371922080273]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 952797371922080273
-                }
-            }
-        },
-        "Entity_[1339621646305]": {
-            "Id": "Entity_[1339621646305]",
-            "Name": "Camera",
-            "Components": {
-                "Component_[11895140916889160460]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 11895140916889160460
-                },
-                "Component_[16880285896855930892]": {
-                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 16880285896855930892,
-                    "Controller": {
-                        "Configuration": {
-                            "Field of View": 55.0,
-                            "Far Clip Plane Distance": 10000000.0,
-                            "EditorEntityId": 3102015928257073975
-                        }
-                    }
-                },
-                "Component_[17187464423780271193]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 17187464423780271193
-                },
-                "Component_[17495696818315413311]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 17495696818315413311
-                },
-                "Component_[18086214374043522055]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 18086214374043522055,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            -2.299999952316284,
-                            -3.9368600845336914,
-                            1.0
-                        ],
-                        "Rotate": [
-                            -2.050307512283325,
-                            1.9552897214889526,
-                            -43.623355865478516
-                        ]
-                    }
-                },
-                "Component_[18387556550380114975]": {
-                    "$type": "SelectionComponent",
-                    "Id": 18387556550380114975
-                },
-                "Component_[1995046738562685655]": {
-                    "$type": "GeoReferenceCameraControllerEditor",
-                    "Id": 1995046738562685655,
-                    "PanningSpeed": 500.0,
-                    "MovementSpeed": 500.0
-                },
-                "Component_[2654521436129313160]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 2654521436129313160
-                },
-                "Component_[5265045084611556958]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 5265045084611556958
-                },
-                "Component_[7169798125182238623]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7169798125182238623
-                },
-                "Component_[8866210352157164042]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 8866210352157164042
-                },
-                "Component_[9129253381063760879]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 9129253381063760879
                 }
             }
         },
@@ -784,15 +611,10 @@
                 "Component_[6644513399057217122]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 6644513399057217122,
-                    "Parent Entity": "Entity_[1331031711713]",
+                    "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
-                        "Translate": [
-                            -2.129699945449829,
-                            -8.424567222595215,
-                            -5.647940158843994
-                        ],
                         "Rotate": [
-                            -90.0,
+                            -89.99999237060547,
                             0.0,
                             0.0
                         ]
@@ -868,63 +690,6 @@
                 "Component_[9507854837790865195]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 9507854837790865195
-                }
-            }
-        },
-        "Entity_[25303487685531]": {
-            "Id": "Entity_[25303487685531]",
-            "Name": "Menu",
-            "Components": {
-                "Component_[1069350991726024037]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 1069350991726024037,
-                    "Parent Entity": "Entity_[1146574390643]"
-                },
-                "Component_[11063627872340617297]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 11063627872340617297
-                },
-                "Component_[15903984028678608946]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 15903984028678608946
-                },
-                "Component_[3329533797115756730]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 3329533797115756730,
-                    "m_template": {
-                        "$type": "UiCanvasAssetRefComponent",
-                        "CanvasAssetRef": {
-                            "AssetPath": "ui/controlmenu.uicanvas"
-                        }
-                    }
-                },
-                "Component_[3779691076906590267]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 3779691076906590267
-                },
-                "Component_[4701430365820524273]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 4701430365820524273
-                },
-                "Component_[742414580572281]": {
-                    "$type": "SelectionComponent",
-                    "Id": 742414580572281
-                },
-                "Component_[8185531941165258569]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 8185531941165258569
-                },
-                "Component_[8411437282672907930]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 8411437282672907930
-                },
-                "Component_[8475299833417066533]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8475299833417066533
-                },
-                "Component_[9770200669759510294]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 9770200669759510294
                 }
             }
         },
@@ -1032,6 +797,48 @@
                     "OverrideDefaultTransform": true
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[612462280937651]": {
+            "Source": "Prefabs/Cesium_Camera.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16737857980962784085]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16737857980962784085]/Transform Data/Translate/0",
+                    "value": -2.299999952316284
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16737857980962784085]/Transform Data/Translate/1",
+                    "value": -3.9368600845336914
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16737857980962784085]/Transform Data/Translate/2",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16737857980962784085]/Transform Data/Rotate/0",
+                    "value": -2.050307512283325
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16737857980962784085]/Transform Data/Rotate/1",
+                    "value": 1.9552897214889526
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16737857980962784085]/Transform Data/Rotate/2",
+                    "value": -43.623355865478516
+                }
+            ]
         }
     }
 }
