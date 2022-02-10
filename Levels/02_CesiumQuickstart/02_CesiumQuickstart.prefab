@@ -41,7 +41,6 @@
                 "ECEFPicker": {
                     "SampleOriginMethod": 1,
                     "SampledEntityId": "",
-                    "PositionType": 1,
                     "Position": [
                         1334926.2155496497,
                         -4652376.221433976,
@@ -196,6 +195,7 @@
                         "Configuration": {
                             "Intensity": 1.0,
                             "CameraEntityId": "",
+                            "ShadowFarClipDistance": 1000.0,
                             "ShadowFilterMethod": 1
                         }
                     }
@@ -487,7 +487,7 @@
                             0.0
                         ],
                         [
-                            -4.803578897843998e-8,
+                            -4.8035788978439984e-8,
                             1.347948260685015e-7,
                             0.9999999924355292,
                             0.0
