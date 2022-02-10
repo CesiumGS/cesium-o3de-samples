@@ -1,4 +1,4 @@
-![Cesium for O3DE Logo](Images/Cesium_for_O3DE_dark_color.png)
+![Cesium for O3DE Logo](Images/Cesium_for_O3DE_dark_onWhite.jpg)
 
 # Cesium for O3DE Samples
 
