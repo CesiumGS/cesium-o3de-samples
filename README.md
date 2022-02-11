@@ -1,4 +1,4 @@
-![Cesium for O3DE Logo](Images/Cesium_for_O3DE_dark_color.png)
+![Cesium for O3DE Logo](Images/Cesium_for_O3DE_dark_onWhite.jpg)
 
 # Cesium for O3DE Samples
 
@@ -28,7 +28,7 @@ Have questions? Ask them on the [community forum](https://community.cesium.com).
 
 Explore different tilesets and locations on the globe in this introductory level. Press play, then use keyboard keys 1-3 to fly to New York City, USA, Mount Fuji, Japan, and Melbourne, Australia. This level demonstrates using the Script Canvas and the Cesium plugin to fly smoothly between different locations on the globe. 
 
-### :two: Level 02_CesiumBase
+### :two: Level 02_CesiumQuickstart
 
 This level is a simple template level consisting only of lighting, Cesium World Terrain and Cesium OSM Buildings, and the basic camera settings that you'll typically want in all your Cesium levels. Use this level as a jumping-off point to more rapidly build new experiences with Cesium and O3DE!
 
