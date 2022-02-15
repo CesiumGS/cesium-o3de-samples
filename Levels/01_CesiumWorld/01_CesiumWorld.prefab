@@ -189,8 +189,7 @@
                             4.2018655221909285e-10,
                             1.0
                         ]
-                    ],
-                    "OverrideDefaultTransform": true
+                    ]
                 },
                 "Component_[1453593623477159953]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -319,8 +318,7 @@
                             -8.70575400458074,
                             1.0
                         ]
-                    ],
-                    "OverrideDefaultTransform": true
+                    ]
                 },
                 "Component_[3207453936534055573]": {
                     "$type": "EditorLockComponent",
@@ -953,8 +951,7 @@
                             0.0,
                             1.0
                         ]
-                    ],
-                    "OverrideDefaultTransform": true
+                    ]
                 }
             }
         }
