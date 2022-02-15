@@ -12,15 +12,15 @@ The levels in this project will walk you through the plugin's features and demon
 ### :rocket: Get Started
 
 1. First, download and install the [Cesium for O3DE](https://github.com/CesiumGS/cesium-o3de) gem. Take note of your local filepath to the cesium-o3de directory, you'll need it later.
-2. Clone this repository with `git clone git@github.com:CesiumGS/cesium-o3de-samples.git`.
-3. In the cesium-o3de-samples folder, find and open `project.json`.  Find the `"external-subdirectories"` element and replace the existing filepath with your filepath to the `cesium-o3de` repository.
+2. Clone this repository with `git clone git@github.com:CesiumGS/cesium-o3de-samples.git`. Or, [download the latest release](https://github.com/CesiumGS/cesium-o3de-samples/releases) and unzip the package.
+3. In the cesium-o3de-samples folder, find and open `project.json`.  Find the `"external-subdirectories"` element and replace the existing filepath with your filepath to the `cesium-o3de` repository or package.
 ![Filepath to change](Images/project.json-filepath.jpg)
 Save and close the `project.json` file.
 4. Open the O3DE Project Manager and select **Add Existing Project**. 
-5. In the window that appears, find the `cesium-o3de-samples` directory that you just cloned.
+5. In the window that appears, find the `cesium-o3de-samples` directory that you just downloaded.
 6. Build the project, then open it.
 
-Have questions? Ask them on the [community forum](https://community.cesium.com).
+Have questions? Ask them on the [community forum](https://community.cesium.com). You may also want to visit the [Cesium for O3DE tutorials](https://cesium.com/learn/o3de/).
 
 ## :mountain: Features
 
