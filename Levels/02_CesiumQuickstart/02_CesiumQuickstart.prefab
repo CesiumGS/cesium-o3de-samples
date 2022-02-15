@@ -41,6 +41,7 @@
                 "ECEFPicker": {
                     "SampleOriginMethod": 1,
                     "SampledEntityId": "",
+                    "PositionType": 0,
                     "Position": [
                         1334926.2155496497,
                         -4652376.221433976,
@@ -389,8 +390,7 @@
                             -0.23445016414359776,
                             1.0
                         ]
-                    ],
-                    "OverrideDefaultTransform": true
+                    ]
                 },
                 "Component_[3743450804002854601]": {
                     "$type": "SelectionComponent",
@@ -498,8 +498,7 @@
                             -0.303003769533575,
                             1.0
                         ]
-                    ],
-                    "OverrideDefaultTransform": true
+                    ]
                 },
                 "Component_[2700741217113580308]": {
                     "$type": "EditorDisabledCompositionComponent",
